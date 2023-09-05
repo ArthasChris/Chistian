@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #d7ebcf;
+}
+#contenedor{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#librocorazon{
+    width: 100%;
+}
+#Lee{
+    margin-top: 5%;
+}
+#contenedor2{
+    background-color: white;
+    display: grid;
+}
+#libro1, #libro2, #libro3, #libro4{
+    height: 300px;
+    width: 250px;
+}
+
+#primerlibro, #segundolibro, #tercerlibro, #cuartolibro{
+    float:left; 
+}
+#primerlibro,#segundolibro,#tercerlibro, #cuartolibro{
+    margin-top: 20px;
+    margin-left: 65px;
+}
+#final{
+    background-color: #d7ebcf;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+}
+#columnafinal,#columnaF{
+    margin-top: 15px;
+}
